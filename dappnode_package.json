@@ -1,6 +1,6 @@
 {
   "name": "ethereum-classic.dnp.dappnode.eth",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "upstreamVersion": "v2.5.13",
   "shortDescription": "ETC Client by Parity",
   "description": "Ethereum Classic is a decentralized platform that runs smart contracts: applications that can be run exactly as programmed without any possibility of downtime, censorship, or third party interference. This packages deploys a node for the ETC blockchain.",
