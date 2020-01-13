@@ -1,0 +1,16 @@
+version: '3.4'
+services:
+  ethereum-classic.dnp.dappnode.eth:
+    build: ./build
+    image: 'ethereum-classic.dnp.dappnode.eth:0.0.1'
+    restart: always
+    volumes:
+      - 'data:/root/.local/share/io.parity.ethereum'
+    environment:
+      - EXTRA_OPTS=
+    ports:
+      - '30303'
+      - 30303/udp
+      - 30304/udp
+volumes:
+  data: {}
