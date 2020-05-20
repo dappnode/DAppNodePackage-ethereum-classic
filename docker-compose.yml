@@ -2,7 +2,7 @@ version: '3.4'
 services:
   ethereum-classic.dnp.dappnode.eth:
     build: ./build
-    image: 'ethereum-classic.dnp.dappnode.eth:0.0.1'
+    image: 'ethereum-classic.dnp.dappnode.eth:0.0.3'
     restart: always
     volumes:
       - 'data:/root/.local/share/io.parity.ethereum'
