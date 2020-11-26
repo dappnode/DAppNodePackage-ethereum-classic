@@ -44,7 +44,7 @@ You can use this package without installing it in your DAppNode following these 
 
 You can edit the `docker-compose.yml` and add extra options, such as:
 ```
- - EXTRA_OPTS=--wsapi db,eth,net,ssh,miner,web3,personal,admin,txpool
+ - EXTRA_OPTS=--ws.api db,eth,net,ssh,miner,web3,personal,admin,txpool
 ```
 
 ## Connect using web3js
