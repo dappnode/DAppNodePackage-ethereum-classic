@@ -1,19 +1,20 @@
 {
   "name": "ethereum-classic.dnp.dappnode.eth",
-  "version": "0.0.1",
-  "upstreamVersion": "v2.5.13",
-  "shortDescription": "ETC Client by Parity",
-  "description": "Ethereum Classic is a decentralized platform that runs smart contracts: applications that can be run exactly as programmed without any possibility of downtime, censorship, or third party interference. This packages deploys a node for the ETC blockchain.",
+  "version": "1.0.0",
+  "upstreamVersion": "v1.11.19",
+  "shortDescription": "ETC Client by ETC Core",
+  "description": "Ethereum Classic is a decentralized platform that runs smart contracts: applications that can be run exactly as programmed without any possibility of downtime, censorship, or third party interference. This packages deploys a node for the Ethereum Classic mainnet.",
   "type": "library",
   "chain": "ethereum",
   "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
   "contributors": [
-    "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)"
+    "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+    "Afri Schoedon <github@fault.dev> (https://github.com/byz-f)"
   ],
   "categories": [
     "Blockchain"
   ],
-  "license": "GLP-3.0",
+  "license": "GPL-3.0",
   "links": {
     "endpoint": "http://ethereum-classic.dappnode:8545",
     "homepage": "https://github.com/dappnode/DAppNodePackage-ethereum-classic#readme"

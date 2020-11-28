@@ -1,16 +1,20 @@
-version: '3.4'
+version: "3.4"
 services:
   ethereum-classic.dnp.dappnode.eth:
-    build: ./build
-    image: 'ethereum-classic.dnp.dappnode.eth:0.0.1'
-    restart: always
+    image: "ethereum-classic.dnp.dappnode.eth:1.0.0"
+    build:
+      context: ./build
+      args:
+        UPSTREAM_VERSION: v1.11.19
     volumes:
-      - 'data:/root/.local/share/io.parity.ethereum'
+      - "geth:/root/.ethereum"
     environment:
-      - EXTRA_OPTS=
+      - "EXTRA_OPTS=--http.api eth,net,web3,txpool --nousb"
+      - SYNCMODE
     ports:
-      - '30303'
+      - "30303"
       - 30303/udp
       - 30304/udp
+    restart: always
 volumes:
-  data: {}
+  geth: {}
