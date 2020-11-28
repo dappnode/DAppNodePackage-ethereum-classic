@@ -52,7 +52,7 @@ You can edit the `docker-compose.yml` and add extra options, such as:
 If the package is running and you're connected to your dappnode you can use:
 ```
 var Web3 = require('web3');
-var web3 = new Web3('ws://my.geth.dappnode:8546')
+var web3 = new Web3('ws://ethereum-classic.dappnode:8546')
 web3.eth.getBlockNumber().then(console.log)
 ```
 In case you are running it locally:
