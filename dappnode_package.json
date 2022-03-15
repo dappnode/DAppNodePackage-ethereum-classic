@@ -1,7 +1,7 @@
 {
   "name": "ethereum-classic.dnp.dappnode.eth",
   "version": "1.1.1",
-  "upstreamVersion": "v1.12.6",
+  "upstreamVersion": "v1.10.16",
   "upstreamRepo": "ethereum/go-ethereum",
   "upstreamArg": "UPSTREAM_VERSION",
   "shortDescription": "ETC Client by ETC Core",
@@ -14,9 +14,7 @@
     "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
     "Afri Schoedon <github@fault.dev> (https://github.com/byz-f)"
   ],
-  "categories": [
-    "Blockchain"
-  ],
+  "categories": ["Blockchain"],
   "license": "GPL-3.0",
   "links": {
     "endpoint": "http://ethereum-classic.dappnode:8545",
