@@ -1,7 +1,7 @@
 {
   "name": "ethereum-classic.dnp.dappnode.eth",
   "version": "1.1.1",
-  "upstreamVersion": "v1.12.6",
+  "upstreamVersion": "v1.12.8",
   "upstreamRepo": "etclabscore/core-geth",
   "upstreamArg": "UPSTREAM_VERSION",
   "shortDescription": "ETC Client by ETC Core",
