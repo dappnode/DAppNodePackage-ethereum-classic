@@ -1,5 +1,5 @@
 # Build Core-Geth in a stock Go builder container
-FROM golang:1.15-alpine as builder
+FROM golang:1.18-alpine as builder
 
 ARG UPSTREAM_VERSION
 
