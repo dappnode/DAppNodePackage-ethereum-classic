@@ -15,4 +15,4 @@ RUN apk add --no-cache ca-certificates
 
 COPY --from=builder /go/core-geth/build/bin/geth /usr/local/bin
 
-ENTRYPOINT geth --classic --http --http.addr 0.0.0.0 --http.corsdomain "*" --http.vhosts "*" --ws --ws.origins "*" --ws.addr 0.0.0.0 --syncmode ${SYNCMODE:-fast} $EXTRA_OPTS
+ENTRYPOINT geth --classic --http --http.addr 0.0.0.0 --http.corsdomain "*" --http.vhosts "*" --ws --ws.origins "*" --ws.addr 0.0.0.0 --syncmode ${SYNCMODE:-snap} $EXTRA_OPTS
