@@ -9,12 +9,12 @@ services:
     volumes:
       - "geth:/root/.ethereum"
     environment:
-      - "EXTRA_OPTS=--http.api eth,net,web3,txpool --nousb"
-      - SYNCMODE
+      - "EXTRA_OPTS=--http.api eth,net,web3,txpool"
+      - SYNCMODE=snap
+      - P2P_PORT=30913
     ports:
-      - "30303"
-      - 30303/udp
-      - 30304/udp
+      - "30913:30913/udp"
+      - "30913:30913/tcp"
     restart: always
 volumes:
   geth: {}
