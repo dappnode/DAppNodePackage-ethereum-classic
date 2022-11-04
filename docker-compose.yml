@@ -15,6 +15,6 @@ services:
     ports:
       - "30913:30913/udp"
       - "30913:30913/tcp"
-    restart: always
+    restart: unless-stopped
 volumes:
   geth: {}
